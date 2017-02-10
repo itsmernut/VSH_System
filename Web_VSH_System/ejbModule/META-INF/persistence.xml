@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence>
+  <persistence-unit name="adminDatabase">
+    <jta-data-source>java:jboss/datasources/MySqlDS</jta-data-source>
+    <properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+  </persistence-unit>
+
+  <persistence-unit name="studentDatabase">
+    <jta-data-source>java:jboss/datasources/MySqlDS</jta-data-source>
+    <properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+  </persistence-unit>
+  
+  <persistence-unit name="teacherDatabase">
+    <jta-data-source>java:jboss/datasources/MySqlDS</jta-data-source>
+    <properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+  </persistence-unit>
+  
+  <persistence-unit name="parentDatabase">
+    <jta-data-source>java:jboss/datasources/MySqlDS</jta-data-source>
+    <properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+  </persistence-unit>
+  
+  <persistence-unit name="locationDatabase">
+    <jta-data-source>java:jboss/datasources/MySqlDS</jta-data-source>
+    <properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+  </persistence-unit>
+  
+  <persistence-unit name="statusDatabase">
+    <jta-data-source>java:jboss/datasources/MySqlDS</jta-data-source>
+    <properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+  </persistence-unit>
+  
+  <persistence-unit name="levelDatabase">
+    <jta-data-source>java:jboss/datasources/MySqlDS</jta-data-source>
+    <properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+  </persistence-unit>
+  
+  <persistence-unit name="roomDatabase">
+    <jta-data-source>java:jboss/datasources/MySqlDS</jta-data-source>
+    <properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+  </persistence-unit>
+</persistence>
+
+
